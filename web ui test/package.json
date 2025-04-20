@@ -7,7 +7,7 @@
     "test": "mocha tests/test-sauce.js --recursive --timeout 60000",
     "script_tugas": "mocha tests/tugas-webui.js --recursive --timeout 60000",
     "script_hooks": "mocha tests/tugas-hooks.js --recursive --timeout 60000",
-    "script_pom": "mocha tests/tugas-pom.js --recursive --timeout 60000",
+    "script_pom": "mocha tests/tugas11-pom.js --recursive --timeout 60000",
     "screenshot": "mocha tests/screenshot.js --recursive --timeout 60000",
     "report-mochawesome": "mocha tests --recursive --timeout 60000 --reporter mochawesome --reporter-options output=reports_hooks",
     "report-simple-html": "mocha tests --recursive --timeout 60000 --reporter mocha-simple-html-reporter --reporter-options output=report_hooks.html"
